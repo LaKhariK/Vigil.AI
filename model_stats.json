@@ -1,0 +1,39 @@
+{
+  "xgboost": {
+    "accuracy": 93.44,
+    "precision": 94.01,
+    "recall": 93.44,
+    "f1": 93.41,
+    "train_time_sec": 21.4,
+    "per_class_f1": {
+      "Benign (Normal Traffic)": 97.65,
+      "DDoS Attack": 89.63,
+      "DoS Attack": 94.3,
+      "Port Scan Activity": 92.06
+    },
+    "architecture": "XGBoost (n=250, depth=6, lr=0.1)",
+    "type": "Gradient Boosted Trees"
+  },
+  "mlp": {
+    "accuracy": 75.23,
+    "precision": 84.77,
+    "recall": 75.23,
+    "f1": 74.57,
+    "train_time_sec": 608.2,
+    "per_class_f1": {
+      "Benign (Normal Traffic)": 88.8,
+      "DDoS Attack": 53.53,
+      "DoS Attack": 87.17,
+      "Port Scan Activity": 68.79
+    },
+    "architecture": "MLP (256 \u2192 128 \u2192 64, ReLU, Adam)",
+    "type": "Deep Neural Network"
+  },
+  "dataset": {
+    "total_samples": 431371,
+    "train_samples": 849254,
+    "test_samples": 212314,
+    "features": 32,
+    "classes": 7
+  }
+}
