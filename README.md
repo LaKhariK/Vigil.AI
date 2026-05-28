@@ -1,6 +1,6 @@
-# Vigil AI - Final Prototype Submission
+# Vigil AI - Final Prototype 
 
-Vigil AI is a CST499 capstone prototype for network traffic analysis. The project combines a Node.js web server, a browser-based dashboard/chatbot interface, a Python machine learning prediction pipeline, and a CICDDoS2019-based training workflow.
+Vigil AI is a prototype for network traffic analysis. The project combines a Node.js web server, a browser-based dashboard/chatbot interface, a Python machine learning prediction pipeline, and a CICDDoS2019-based training workflow.
 
 The prototype demonstrates:
 
